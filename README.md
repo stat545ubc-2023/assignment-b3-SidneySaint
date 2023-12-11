@@ -1,5 +1,3 @@
-
-
 ## Welcome to my first Shiny app!
 ### This is a project assigned by STAT 545B, wherein students are asked to develop a simple, interactive Shiny app. Mine was originally developed to facilitate the examination of violent crime data from USA in the 70s, and how trends in this violent crime might relate to population density. I have since (as in, for the last assignment of STAT 545, wherein students may submit an updated version of their earlier Shiny app as their project) updated the app; it is now intended to facilitate the comparison/exploration of trends in violent crime and population density in the US between the 1970s and 2015. 
 To this end I have added a second tab to my app which displays population density and murder incident data in the US states from 2015. 
@@ -7,6 +5,10 @@ To this end I have added a second tab to my app which displays population densit
 On Tab 1, containing older (c. 1973) crime and population-density data, a plot of the murder incidence, by the assault incidence in each US state in 1973. Users can toggle a slider on the UI (user interface) to filter the states whose data appear in that plot based on what percent of their population lives in urban areas. The same is true for a data table of the violent crime data. Updates: 3 new reactive maps in a side panel. They show the 1973 murder rate, assault rate, and population density overlayed on each state on the map; reactive in that these metrics will not be indicated on any given state on the maps if their population density isn't within the user-defined range (via slider). 
 
 Tab 2 indicates 2015 violent crime and population density data: a side panel displays maps of (i) county-level population estimates from 2015 US census data and (ii) concentrations of murder incidents ('hotspots') in select major urban US cities. The incidents whose locations are plotted in the latter are searchable in a data table in the main frame (it contains the individual records from 2015 of murders in Chicago, Detroit, Fort Worth, Kansas City, Los Angeles, Louisville, New York, Tucson, and Virginia Beach from the Crime Open Database).
+ 
+
+ :exclamation: 
+ Please be patient with this tab (#2; on line or local). On my side, it *takes around 1-2 minutes for the UI to load* (the reactive table contains ~ 2000 rows and I think it slows things down).
 
 **Data Sources**
 
@@ -32,7 +34,8 @@ Geospatial (map coordinates of the US states; additional; used for seperate maps
 *  **www /** 
   1. ScreenShot.png: Illustrative overlay of population density onto a map of the USA; displayed in the earlier version of the app (c. 2019 by Reddit user 'dataisbeautiful'). (The updated version has reactive plots illustating US state population density in lieu of this image.)
 
-:sparkles:
-## Link to a running version of this app with updates for assignment 4B: https://s-idneys.shinyapps.io/sidneysasst4b_stat545/ 
+:sparkles: :sparkles:
+## Link to a running version of this app with updates for assignment 4B: https://s-idneys.shinyapps.io/sidneysasst4b_stat545/
+(  :exclamation:  please have patience waiting for tab 2 to load)
 
 ### Link to the running older version of this app: https://s-idneys.shinyapps.io/sidneysasst3b/
