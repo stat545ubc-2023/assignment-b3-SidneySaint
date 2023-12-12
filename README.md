@@ -29,7 +29,7 @@ Geospatial (map coordinates of the US states; additional; used for seperate maps
   This is the essence of the original version of the app. It contains the code that defines the input and output of what appears on its user interface.
 
 *   **updated_app.R** :sparkles:
-  This is the essence of the original version of the app. It contains the code that defines the input and output of what appears on its user interface.
+  This is the essence of the updated version of the app. It contains the code that defines the input and output of what appears on its user interface.
 
 *  **www /** 
   1. ScreenShot.png: Illustrative overlay of population density onto a map of the USA; displayed in the earlier version of the app (c. 2019 by Reddit user 'dataisbeautiful'). (The updated version has reactive plots illustating US state population density in lieu of this image.)
